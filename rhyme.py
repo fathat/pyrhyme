@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 import sqlite3 as sql
-import sys
+import sys, os, os.path
 
-_conn = sql.connect('data/rhyme.db')
+_conn = sql.connect(os.path.join(sys.prefix, 'data/rhyme.db'))
 
 def rhymes_with(word):
     """Returns a list of words that rhyme, or [] if no words rhyme."""
