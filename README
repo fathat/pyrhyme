@@ -1,0 +1,25 @@
+////////////////////////////////////////////////////////////////////////////////
+
+    pyrhyme is a python library for rhyming words.
+    
+    Usage is pretty straightforward:
+    
+        from rhyme import rhymes_with
+        words = rhymes_with('space')
+        
+    Or from the command line:
+    
+        ./rhyme.py space
+
+    
+    * Based on the dictionary data from Brian Langenberger's rhyming
+      dictionary:
+    
+        http://rhyme.sourceforge.net/
+    
+    * Prononunciations are originally from the CMU phonetic dictionary:
+        
+        http://www.speech.cs.cmu.edu/cgi-bin/cmudict?in=C+M+U+Dictionary
+    
+    
+    Feel free to use this code for whatever purpose you wish. 
